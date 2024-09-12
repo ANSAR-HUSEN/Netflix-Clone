@@ -1,0 +1,92 @@
+.outer-wrapper {
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(148, 132, 132);
+    background-color: rgb(20, 20, 20);
+    /* background-color: transparent; */
+    height: 10vh;
+    color: white;
+    transition: all 0.5s;
+    transition-timing-function: ease-in;
+    z-index: 1;
+    
+}
+.inner-wrapper {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-left ul {
+    width: 140%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    list-style: none;
+
+}
+.header-right ul {
+    width: 150%;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+    cursor: pointer;
+
+}
+  .logo img {
+    height: 60px;
+
+}
+
+.nav__black{
+    background-color: #111;
+}
+.left-side {
+    margin-left : 35px;
+    /* margin-top: 9px; */
+    
+}
+.right-side {
+    display: flex;
+    align-items: center;
+    margin-right: 35px;
+    margin-top: 9px;
+    margin-bottom: 9px;
+}
+.right-side button {
+    margin-left: 10px;
+}
+.join-btn {
+    background-color: red;
+    border:solid 3px black ;
+    border-radius: 7%;
+    color: white;
+    padding: 9px 30px;
+    /* height: 40px; */
+    font-size: 14px;
+}
+.sign-btn{
+    background-color: black;
+    border:solid 1px white;
+    border-radius: 5%;
+    color: white;
+    padding: 7px 14px;
+    /* height: 40px; */
+    font-size: 15px;
+}
+
+@media screen  and (max-width : 576px){
+    
+    .header-left ul li:not(:first-child) {
+        display: none;
+
+    }
+   
+}
+    
