@@ -23,10 +23,12 @@ function Header() {
 
 
   } , []);
+
+
   return (
     <>
-      <div className='outer-wrapper '>
-       <div className={`inner-wrapper ${show && "nav__black"}`}>
+      <div className={`outer-wrapper ${show && "nav__black"}`}>
+       <div className='inner-wrapper '>
        <div className="header-left">
           <ul>
             <li className="logo">

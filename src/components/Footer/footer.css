@@ -42,9 +42,10 @@
     align-items: center;
     justify-content: center;
     border: #fff 1px solid;
-    width: 12%;
-    margin: 10px 0;
+    width: 16%;
+    padding: 7px;
     cursor: pointer;
+    margin: 7px 0;
 }
 .copy {
     font-size: 12px;
